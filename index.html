@@ -3,57 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Science Portfolio</title>
+    <title>John Doe | Data Science Portfolio</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f0f2f5;
             color: #333;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #007bff;
             color: white;
-            padding: 1rem 0;
+            padding: 1.5rem 0;
             text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
         }
         nav {
-            margin: 1rem;
-            text-align: center;
+            display: flex;
+            justify-content: center;
+            background-color: #343a40;
+            padding: 0.5rem;
         }
         nav a {
+            color: white;
             margin: 0 1rem;
             text-decoration: none;
-            color: #4CAF50;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #007bff;
         }
         .container {
             width: 80%;
-            margin: 0 auto;
-            padding: 1rem;
+            margin: 2rem auto;
             background-color: white;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
         }
-        h1, h2, h3 {
-            color: #4CAF50;
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+            padding-bottom: 0.5rem;
         }
         .project, .case-study {
             margin-bottom: 2rem;
         }
+        .project h3, .case-study h3 {
+            color: #343a40;
+        }
+        .project p, .case-study p {
+            line-height: 1.6;
+        }
         footer {
             text-align: center;
             padding: 1rem 0;
-            background-color: #333;
+            background-color: #343a40;
             color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
+            margin-top: 2rem;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>John Doe's Data Science Portfolio</h1>
+        <h1>John Doe</h1>
+        <p>Data Scientist</p>
     </header>
     
     <nav>
@@ -118,3 +137,4 @@
     </footer>
 </body>
 </html>
+
